@@ -10,4 +10,4 @@ TECH : Spring, JWT, OAuth2.0, Spring Security, JPA
 
 Social NetWork : Kakao, Naver
 
-Connection ProJect : NodeJS, React --> http://localhost:3000/
+Connected ProJect : NodeJS, React --> http://localhost:3000/
