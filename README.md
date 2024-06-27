@@ -66,6 +66,15 @@ Data: <br/>
 
 --------------------------------------------------------------
 
+### Social Network Sign in<br/>
+<br/>
+Kakao Login URL: http://localhost:4040/api/v1/auth/oauth2/kakao<br/>
+<br/>
+Naver Login URL: http://localhost:4040/api/v1/auth/oauth2/naver<br/>
+<br/>
+
+--------------------------------------------------------------
+
 ### Sign up <br/>
 URL: http://localhost:4040/api/v1/auth/sign-up <br/>
 Method: POST <br/>
@@ -78,13 +87,5 @@ Data:  <br/>
   "certificationNumber" : "code" <br/>
 }<br/>
 
---------------------------------------------------------------
-
-### Social Network Sign in<br/>
-<br/>
-Kakao Login URL: http://localhost:4040/api/v1/auth/oauth2/kakao<br/>
-<br/>
-Naver Login URL: http://localhost:4040/api/v1/auth/oauth2/naver<br/>
-<br/>
 
 --------------------------------------------------------------
