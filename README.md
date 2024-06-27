@@ -8,6 +8,6 @@ DB : MSSQL
 
 TECH : Spring, JWT, OAuth2.0, Spring Security, JPA 
 
-SOcial NetWork : Kakao, Naver
+Social NetWork : Kakao, Naver
 
 Connection ProJect : NodeJS, React --> http://localhost:3000/
