@@ -29,7 +29,7 @@ data:  <br/>
 
 --------------------------------------------------------------
 
-### Send Certification Code by Email ( you should change the email in application.properties before this work ) <br/>
+### Send Certification Code by Email ( you should change the email in application.properties before you work on this ) <br/>
 URL: http://localhost:4040/api/v1/auth/email-certification <br/>
 Method: POST <br/>
 Type: JSON <br/>
