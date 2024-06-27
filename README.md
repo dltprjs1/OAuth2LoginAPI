@@ -14,78 +14,78 @@ Connected ProJect : NodeJS, React --> http://localhost:3000/
 
 --------------------------------------------------------------
 
-Table : 
-  AUTUTRADING_USER  --> user_id(primary key), password, email, type, role
-  AUTUTRADING_CERTIFIACTION   --> user_id(primary key), email, certification_number
+Table : <br/>
+  AUTUTRADING_USER  --> user_id(primary key), password, email, type, role <br/>
+  AUTUTRADING_CERTIFIACTION   --> user_id(primary key), email, certification_number <br/>
   
 --------------------------------------------------------------
 
-Check Duplicated ID
-URL: http://localhost:4040/api/v1/auth/id-check
-Method: POST
-Type: JSON
-data: 
-{
-  "id" : "user_id"
-}
+Check Duplicated ID <br/>
+URL: http://localhost:4040/api/v1/auth/id-check <br/>
+Method: POST <br/>
+Type: JSON <br/>
+data:  <br/>
+{ <br/>
+  "id" : "user_id" <br/>
+} <br/>
 
 --------------------------------------------------------------
 
-Send Certification Code by Email ( you should change the email in application.properties before this work )
-URL: http://localhost:4040/api/v1/auth/email-certification
-Method: POST
-Type: JSON
-Data:
-{
-  "id" : "user_id",
-  "email" : "user_email"
-}
+Send Certification Code by Email ( you should change the email in application.properties before this work ) <br/>
+URL: http://localhost:4040/api/v1/auth/email-certification <br/>
+Method: POST <br/>
+Type: JSON <br/>
+Data: <br/>
+{ <br/> 
+  "id" : "user_id", <br/> 
+  "email" : "user_email" <br/>
+} <br/>
 
 --------------------------------------------------------------
 
-Check certification code
-URL: http://localhost:4040/api/v1/auth/check-certification
-Method: POST
-Type: JSON
-Data:
-{
-  "id" : "user_id",
-  "email" : "user_email",
-  "certificationNumber" : "code"
-}
+Check certification code <br/>
+URL: http://localhost:4040/api/v1/auth/check-certification <br/>
+Method: POST <br/>
+Type: JSON <br/>
+Data: <br/>
+{ <br/>
+  "id" : "user_id", <br/>
+  "email" : "user_email", <br/>
+  "certificationNumber" : "code" <br/>
+} <br/>
 
 --------------------------------------------------------------
 
-Sign in
-URL: http://localhost:4040/api/v1/auth/sign-in
-Method: POST
-Type: JSON
-Data:
-{
-  "id" : "user_id",
-  "password" : "password"
-}
+Sign in <br/>
+URL: http://localhost:4040/api/v1/auth/sign-in <br/>
+Method: POST <br/>
+Type: JSON <br/>
+Data: <br/>
+{ <br/>
+  "id" : "user_id", <br/>
+  "password" : "password" <br/>
+} <br/>
 
 --------------------------------------------------------------
 
-Sign up
-URL: http://localhost:4040/api/v1/auth/sign-up
-Method: POST
-Type: JSON
-Data: 
-{
-  "id" : "user_id",
-  "password" : "password",
-  "email" : "user_email",
-  "certificationNumber" : "code"
-}
+Sign up <br/>
+URL: http://localhost:4040/api/v1/auth/sign-up <br/>
+Method: POST <br/>
+Type: JSON <br/>
+Data:  <br/>
+{ <br/>
+  "id" : "user_id", <br/>
+  "password" : "password", <br/>
+  "email" : "user_email", <br/>
+  "certificationNumber" : "code" <br/>
+}<br/>
 
 --------------------------------------------------------------
 
-Social Network Sign in
-
-Kakao Login URL: http://localhost:4040/api/v1/auth/oauth2/kakao
-
-Naver Login URL: http://localhost:4040/api/v1/auth/oauth2/naver
-
+Social Network Sign in<br/>
+<br/>
+Kakao Login URL: http://localhost:4040/api/v1/auth/oauth2/kakao<br/>
+<br/>
+Naver Login URL: http://localhost:4040/api/v1/auth/oauth2/naver<br/>
+<br/>
 --------------------------------------------------------------
