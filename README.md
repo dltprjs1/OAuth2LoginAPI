@@ -54,6 +54,20 @@ Data: <br/>
 
 --------------------------------------------------------------
 
+### Sign up <br/>
+URL: http://localhost:4040/api/v1/auth/sign-up <br/>
+Method: POST <br/>
+Type: JSON <br/>
+Data:  <br/>
+{ <br/>
+  "id" : "user_id", <br/>
+  "password" : "password", <br/>
+  "email" : "user_email", <br/>
+  "certificationNumber" : "code" <br/>
+}<br/>
+
+--------------------------------------------------------------
+
 ### Sign in <br/>
 URL: http://localhost:4040/api/v1/auth/sign-in <br/>
 Method: POST <br/>
@@ -73,19 +87,6 @@ Kakao Login URL: http://localhost:4040/api/v1/auth/oauth2/kakao<br/>
 Naver Login URL: http://localhost:4040/api/v1/auth/oauth2/naver<br/>
 <br/>
 
---------------------------------------------------------------
-
-### Sign up <br/>
-URL: http://localhost:4040/api/v1/auth/sign-up <br/>
-Method: POST <br/>
-Type: JSON <br/>
-Data:  <br/>
-{ <br/>
-  "id" : "user_id", <br/>
-  "password" : "password", <br/>
-  "email" : "user_email", <br/>
-  "certificationNumber" : "code" <br/>
-}<br/>
 
 
 --------------------------------------------------------------
