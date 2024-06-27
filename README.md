@@ -20,7 +20,7 @@ Table : <br/>
   
 --------------------------------------------------------------
 
-###Check Duplicated ID <br/>
+###h3Check Duplicated ID <br/>
 URL: http://localhost:4040/api/v1/auth/id-check <br/>
 Method: POST <br/>
 Type: JSON <br/>
