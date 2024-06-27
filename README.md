@@ -20,7 +20,7 @@ Table : <br/>
   
 --------------------------------------------------------------
 
-### h3 Check Duplicated ID <br/>
+### Check Duplicated ID <br/>
 URL: http://localhost:4040/api/v1/auth/id-check <br/>
 Method: POST <br/>
 Type: JSON <br/>
@@ -31,7 +31,7 @@ data:  <br/>
 
 --------------------------------------------------------------
 
-Send Certification Code by Email ( you should change the email in application.properties before this work ) <br/>
+### Send Certification Code by Email ( you should change the email in application.properties before this work ) <br/>
 URL: http://localhost:4040/api/v1/auth/email-certification <br/>
 Method: POST <br/>
 Type: JSON <br/>
@@ -43,7 +43,7 @@ Data: <br/>
 
 --------------------------------------------------------------
 
-Check certification code <br/>
+### Check certification code <br/>
 URL: http://localhost:4040/api/v1/auth/check-certification <br/>
 Method: POST <br/>
 Type: JSON <br/>
@@ -56,7 +56,7 @@ Data: <br/>
 
 --------------------------------------------------------------
 
-Sign in <br/>
+### Sign in <br/>
 URL: http://localhost:4040/api/v1/auth/sign-in <br/>
 Method: POST <br/>
 Type: JSON <br/>
@@ -68,7 +68,7 @@ Data: <br/>
 
 --------------------------------------------------------------
 
-Sign up <br/>
+### Sign up <br/>
 URL: http://localhost:4040/api/v1/auth/sign-up <br/>
 Method: POST <br/>
 Type: JSON <br/>
@@ -82,7 +82,7 @@ Data:  <br/>
 
 --------------------------------------------------------------
 
-Social Network Sign in<br/>
+### Social Network Sign in<br/>
 <br/>
 Kakao Login URL: http://localhost:4040/api/v1/auth/oauth2/kakao<br/>
 <br/>
